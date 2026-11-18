@@ -1,0 +1,63 @@
+# encoding: utf-8
+# 2026 R1
+SetScriptVersion(Version="26.1.174")
+template1 = GetTemplate(TemplateName="EngData")
+system1 = GetSystem(Name="FFF")
+system2 = template1.CreateSystem(
+    Position="Right",
+    RelativeTo=system1)
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.Edit(IsDiscoveryGeometry=True)
+system1.Delete()
+system2.Delete()
+template2 = GetTemplate(
+    TemplateName="Static Structural",
+    Solver="ANSYS")
+system3 = template2.CreateSystem()
+Save(Overwrite=True)
+geometry2 = system3.GetContainer(ComponentName="Geometry")
+geometry2.SetFile(FilePath="C:/Users/demit/Desktop/Ansys  solidwork sim/shaft.STEP")
+modelComponent1 = system3.GetComponent(Name="Model")
+modelComponent1.Refresh()
+modelComponent1.Refresh()
+model1 = system3.GetContainer(ComponentName="Model")
+model1.Edit()
+model1.Exit()
+model1.Edit()
+model1.Exit()
+geometry2.SetFile(FilePath="C:/Users/demit/Desktop/Ansys  solidwork sim/shaft_with_ring.STEP")
+modelComponent1.Refresh()
+model1.Edit()
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+model1.Exit()
+template3 = GetTemplate(
+    TemplateName="Modal",
+    Solver="ANSYS")
+engineeringDataComponent1 = system3.GetComponent(Name="Engineering Data")
+geometryComponent1 = system3.GetComponent(Name="Geometry")
+system4 = template3.CreateSystem(
+    ComponentsToShare=[engineeringDataComponent1, geometryComponent1, modelComponent1],
+    Position="Right",
+    RelativeTo=system3)
+modelComponent1.Refresh()
+setupComponent1 = system4.GetComponent(Name="Setup")
+setupComponent1.Refresh()
+setup1 = system4.GetContainer(ComponentName="Setup")
+setup1.Edit()
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+model1.Exit()

@@ -1,0 +1,28 @@
+/COM,ANSYS RELEASE 2026 R1           BUILD 26.1      UP20260202       17:39:34
+
+ *** WARNING ***                         ELAPSED TIME =       9.598   TIME= 17:39:38
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         ELAPSED TIME =       9.968   TIME= 17:39:39
+ Material number 4 (used by element 93748) should normally have at least 
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         ELAPSED TIME =      42.428   TIME= 17:40:11
+ The Distributed Sparse Matrix Solver used by the Block Lanczos          
+ eigensolver is running in out-of-core memory mode.  This mode may       
+ result in significantly lower performance than in-core memory mode,     
+ depending on available system memory and I/O speed.  Monitor solver     
+ performance to ensure that high I/O to solver files does not create a   
+ performance bottleneck.                                                 
+
+ *** WARNING ***                         ELAPSED TIME =     211.829   TIME= 17:43:01
+ During this session the elapsed time exceeds the CPU time by 233%.      
+ This often indicates either a lack of physical memory (RAM) required    
+ to efficiently handle this simulation or a particularly slow hard       
+ drive configuration.  This simulation can be expected to run faster on  
+ identical hardware if additional RAM or a faster hard drive             
+ configuration is made available.  For more details, please see the      
+ Mechanical APDL Performance Guide which is part of the Ansys Help       
+ system.                                                                 

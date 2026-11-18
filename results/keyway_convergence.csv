@@ -1,0 +1,4 @@
+keyway_element_size_mm,global_element_size_mm,nodes,elements,max_von_mises_MPa
+0.50,6,45754,26995,45.0
+0.35,6,71753,42304,46.0
+0.25,6,117832,69654,45.3

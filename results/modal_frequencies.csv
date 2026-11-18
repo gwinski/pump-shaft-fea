@@ -1,0 +1,7 @@
+mode,frequency_Hz,description
+1,0.002,rigid rotation about shaft axis (not a vibration)
+2,473.58,first bending mode of impeller overhang
+3,474.47,first bending mode perpendicular plane
+4,2795.9,higher-order mode
+5,5439.8,higher-order mode
+6,5645.0,higher-order mode

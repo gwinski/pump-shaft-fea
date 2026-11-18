@@ -1,0 +1,12 @@
+# Workbench lock, scratch and backup files
+*.lock
+.lock
+_ProjectScratch/
+*.backup/
+
+# SolidWorks temporary files
+~$*
+
+# Windows
+Thumbs.db
+desktop.ini

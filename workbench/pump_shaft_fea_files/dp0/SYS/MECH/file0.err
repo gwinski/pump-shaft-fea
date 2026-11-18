@@ -1,0 +1,13 @@
+/COM,ANSYS RELEASE 2026 R1           BUILD 26.1      UP20260202       17:33:45
+
+ *** WARNING ***                         ELAPSED TIME =      10.526   TIME= 17:33:51
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         ELAPSED TIME =      11.061   TIME= 17:33:51
+ Material number 8 (used by element 93870) should normally have at least 
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** WARNING ***                         ELAPSED TIME =      31.255   TIME= 17:34:12
+ Coefficient ratio exceeds 1.0e8 - Check results.                        
